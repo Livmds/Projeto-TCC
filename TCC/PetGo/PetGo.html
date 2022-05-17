@@ -8,7 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <style type="text/css">
 
-    .adote{
+    /*.adote{
     background-color: rgba(244, 186, 15, 0.9);
     border-top-right-radius:40px ;
     border-bottom-left-radius: 40px;
@@ -20,10 +20,59 @@
     text-align: center;
     }
 
-.adote2{
+    .adote2{
     background-color: rgba(244, 186, 15, 0.9);
     
+    }*/
+
+    /*.container{
+    display: flex;
+    flex-direction: row;
     }
+
+    .card{
+      width: 5rem; 
+      box-shadow:2px 2px navy;
+      /*border-radius: 50px;*/
+
+    }
+
+    
+    
+
+    .card-text{
+      text-align: center;
+
+    }
+
+    .centro{
+      text-align: center;
+    }*/
+
+    /*.btn{
+      color: white;
+      background-color: blue;
+    }
+
+    .btn:hover{
+      color: orangered;
+    }
+
+    .butao{
+      background-color: darkcyan;
+      color: white;      
+      width: 50px;
+      
+    }*/
+
+    .butao:hover{
+      background-color: navy;
+      color: whitesmoke;
+    }
+
+    /*.butao:focus{
+        color: blue;
+     }*/
 
     .container{
     display: flex;
@@ -31,18 +80,45 @@
     }
 
     .card{
-      width: 18rem; 
-      background-color: rgba(244, 186, 15, 0.9);
-      box-shadow:10px 5px  darkcyan;
+      width: 18rem;
+      background-color: white;
+      color: black;
     }
 
+    .card-title{
+      color: whitesmoke;
+      background-color: navy;
+       text-align: center;
+    }
+
+    body {
+    background-color: rgb(135,206,250);
+    }
+    
+    .btn {
+      color: white;
+      background-color: navy;
+
+    }  
+
+    .butao {
+        color: navy;
+        background-color: whitesmoke;
+    }
+
+    .card-img-top{
+      height:220px;
+      width:px;
+    }
+
+    
 
   </style>
 
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: darkcyan;">
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(100,149,237);">
   <div class="container-fluid">
     <a class="navbar-brand" href="home.html">PetGo</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -75,7 +151,7 @@
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-        <button class="btn btn-outline-light" type="submit"><i class="fa-solid fa-cat"></i></button>
+        <button class="butao" type="submit"><i class="fa-solid fa-cat"></i></button>
       </form>
     </div>
   </div>
@@ -95,7 +171,9 @@
       <div class="card-body">
       <h5 class="card-title">Solis & Luna</h5>
       <p class="card-text">Raça: Sphynx<br> 3 e 4 Anos de idade<br>Porte: Pequeno</p>
-      <a href="adocao.html" class="btn btn-primary">Adote!</a>
+    <div class="centro">  
+      <a href="http://alpa.org.br/" class="btn ">Adote!</a>
+    </div>  
     </div>
     </div>
 
@@ -112,7 +190,9 @@
       <div class="card-body">
       <h5 class="card-title">Caramelo</h5>
       <p class="card-text">Raça: Caramelo <br> 4 Anos de idade<br> Porte: Grande</p>
-      <a href="adocao.html" class="btn btn-primary">Adote!</a>
+    <div class="centro">
+      <a href="adocao.html" class="btn ">Adote!</a>
+    </div>  
     </div>
     </div>
 
@@ -128,7 +208,9 @@
       <div class="card-body">
       <h5 class="card-title">Tom</h5>
       <p class="card-text">Raça: Siamês <br> 2 Anos de idade <br> Porte: Pequeno</p>
-      <a href="adocao.html" class="btn btn-primary">Adote!</a>
+    <div class="centro">
+      <a href="adocao.html" class="btn ">Adote!</a>
+    </div>  
     </div>
     </div>
 
@@ -136,29 +218,120 @@
   </div>
 </div>
 
+ <br><br>
 
 
-<!--<div class="card" style="width: 18rem; margin-left: 6rem;">
-  <img src="imagens\Cachorroum.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">MAX</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Adote!</a>
-  </div>
-</div>-->
-
-
-
-<!--<div class="col-sm-2">
-    <div class="card">
+<div class="container">
+  <div class="row">
+    
+    <div class="card col-md-3" >
+      <img src="imagens\gato2.jpg" class="card-img-top" alt="...">
       <div class="card-body">
-        <img src="imagens\Cachorroum.jpg">
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
+      <h5 class="card-title">Ellie</h5>
+      <p class="card-text">Raça: Nebelung<br> 3 e 4 Anos de idade<br>Porte: médio</p>
+    <div class="centro">  
+      <a href="adocao.html" class="btn ">Adote!</a>
+    </div>  
     </div>
+    </div>
+
+    
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+    
+    
+  <div class="card col-md-3" style="width: 18rem;" class="espaco">
+      <img src="imagens\dalmata.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+      <h5 class="card-title">BOB</h5>
+      <p class="card-text">Raça: Dalmata <br> 2 Anos de idade<br> Porte: Grande</p>
+    <div class="centro">
+      <a href="adocao.html" class="btn ">Adote!</a>
+    </div>  
+    </div>
+    </div>
+
+    
+    <div class="col"></div>    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+    
+
+   <div class="card col-md-3" style="width: 18rem;" class="espaco">
+      <img src="imagens\gato3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+      <h5 class="card-title">Garf</h5>
+      <p class="card-text">Raça: Cymric <br> 4 Anos de idade <br> Porte: Pequeno</p>
+    <div class="centro">
+      <a href="adocao.html" class="btn ">Adote!</a>
+    </div>  
+    </div>
+    </div>
+
+
   </div>
-</div>-->
+</div>
+
+<br><br>
+
+<div class="container">
+  <div class="row">
+    
+    <div class="card col-md-3" >
+      <img src="imagens\cachorro2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+      <h5 class="card-title">Trilla</h5>
+      <p class="card-text">Raça: Pastor Alemão<br> 3 e 4 Anos de idade<br>Porte: Grande</p>
+    <div class="centro">  
+      <a href="adocao.html" class="btn ">Adote!</a>
+    </div>  
+    </div>
+    </div>
+
+    
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+    
+    
+  <div class="card col-md-3" style="width: 18rem;" class="espaco">
+      <img src="imagens\gato4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+      <h5 class="card-title">Ming</h5>
+      <p class="card-text">Raça: Rajado <br> 3 Anos de idade<br> Porte: Pequeno</p>
+    <div class="centro">
+      <a href="adocao.html" class="btn ">Adote!</a>
+    </div>  
+    </div>
+    </div>
+
+    
+    <div class="col"></div>    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col"></div>
+    
+
+   <div class="card col-md-3" style="width: 18rem;" class="espaco">
+      <img src="imagens\cachorro3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+      <h5 class="card-title">Nelson</h5>
+      <p class="card-text">Raça: Pinscher <br> 1 Anos de idade <br> Porte: Pequeno</p>
+    <div class="centro">
+      <a href="adocao.html" class="btn ">Adote!</a>
+    </div>  
+    </div>
+    </div>
+
+
+  </div>
+</div>
 
 
 

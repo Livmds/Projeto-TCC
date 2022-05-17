@@ -19,13 +19,25 @@
     text-align: center;
     }	
 
-    .mapa{            
 
+    .butao{
+        background-color: darkcyan;
+        color: white;      
+        width: 50px;
+      }
 
+      .butao:hover{
+        background-color: orangered;
+        color: greenyellow;
+      }
 
+      .butao:focus{
+        color: blue;
+      }
 
-    }
-
+      a:hover{
+        color: orangered;
+      }
 
 
 	</style>
@@ -40,7 +52,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Animais</a>
+          <a class="nav-link active" aria-current="page" href="PetGo.html">Animais</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="gpps.html">GPPS</a>
@@ -64,7 +76,7 @@
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-        <button class="btn btn-outline-light" type="submit"><i class="fa-solid fa-cat"></i></button>
+        <button class="butao" type="submit"><i class="fa-solid fa-cat"></i></button>
       </form>
     </div>
   </div>
@@ -80,7 +92,7 @@
 
     <h2 class="display-2">Localização</h2>    	
     <div class="mapa">
-     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14737.785834134398!2d-47.4251042!3d-22.5623994!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe2108428886c8646!2sCotil%20(Unicamp)!5e0!3m2!1spt-BR!2sbr!4v1649724859626!5m2!1spt-BR!2sbr" width="1000rem" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14737.785834134398!2d-47.4251042!3d-22.5623994!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe2108428886c8646!2sCotil%20(Unicamp)!5e0!3m2!1spt-BR!2sbr!4v1649724859626!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 		</div>
     </div>
 </div>
