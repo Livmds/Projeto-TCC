@@ -1,0 +1,12 @@
+C:\Users\aluno\source\repos\desktopTCC\desktopTCC\bin\Debug\desktopTCC.exe.config
+C:\Users\aluno\source\repos\desktopTCC\desktopTCC\bin\Debug\desktopTCC.exe
+C:\Users\aluno\source\repos\desktopTCC\desktopTCC\bin\Debug\desktopTCC.pdb
+C:\Users\aluno\source\repos\desktopTCC\desktopTCC\obj\Debug\desktopTCC.csproj.AssemblyReference.cache
+C:\Users\aluno\source\repos\desktopTCC\desktopTCC\obj\Debug\desktopTCC.Form1.resources
+C:\Users\aluno\source\repos\desktopTCC\desktopTCC\obj\Debug\desktopTCC.Form2.resources
+C:\Users\aluno\source\repos\desktopTCC\desktopTCC\obj\Debug\desktopTCC.Form3.resources
+C:\Users\aluno\source\repos\desktopTCC\desktopTCC\obj\Debug\desktopTCC.Properties.Resources.resources
+C:\Users\aluno\source\repos\desktopTCC\desktopTCC\obj\Debug\desktopTCC.csproj.GenerateResource.cache
+C:\Users\aluno\source\repos\desktopTCC\desktopTCC\obj\Debug\desktopTCC.csproj.CoreCompileInputs.cache
+C:\Users\aluno\source\repos\desktopTCC\desktopTCC\obj\Debug\desktopTCC.exe
+C:\Users\aluno\source\repos\desktopTCC\desktopTCC\obj\Debug\desktopTCC.pdb
