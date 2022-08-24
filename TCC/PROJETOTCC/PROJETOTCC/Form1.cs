@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -14,7 +15,18 @@ namespace PROJETOTCC
     {
         public Form1()
         {
+            Thread thread = new Thread(new ThreadStart(splashScreen));
+            thread.Start();
+            Thread.Sleep(5000);
             InitializeComponent();
+
+            thread.Abort();
+        }
+
+        private void splashScreen()
+        {
+            Application.Run(new SplashScreen());
+            
         }
 
         private void adotanteToolStripMenuItem_Click(object sender, EventArgs e)
@@ -61,6 +73,11 @@ namespace PROJETOTCC
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

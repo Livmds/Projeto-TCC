@@ -10,21 +10,21 @@ using System.Windows.Forms;
 
 namespace PROJETOTCC
 {
-    public partial class Form5 : Form
+    public partial class SplashScreen : Form
     {
-        public Form5()
+        public SplashScreen()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void timer1_Tick(object sender, EventArgs e)
         {
-            Close();
-        }
+            progressBar1.Increment(1);
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
+            if(progressBar1.Value == 100)
+            {
+                timer1.Stop();
+            }
         }
     }
 }

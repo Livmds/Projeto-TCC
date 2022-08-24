@@ -19,7 +19,29 @@ namespace PROJETOTCC
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Cadastro de Adotante salvo!");
+            if(textBox1.Text == "")
+            {
+                MessageBox.Show("Preencha todos os campos!");
+            }else if(textBox2.Text == "")
+            {
+                MessageBox.Show("Preencha todos os campos!");
+            }else if(textBox3.Text == "")
+            {
+                MessageBox.Show("Preencha todos os campos!");
+            }else if(textBox4.Text == "")
+            {
+                MessageBox.Show("Preencha todos os campos!");
+            }else
+            {
+                MessageBox.Show("Cadastro de Adotante salvo!");
+            }
+
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
