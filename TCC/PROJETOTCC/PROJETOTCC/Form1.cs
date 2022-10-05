@@ -15,6 +15,12 @@ namespace PROJETOTCC
     {
         public Form1()
         {
+            if (DAO_Conexao.getConexao("143.106.241.3", "cl201452", "cl201452", "cl*15022003"))
+                Console.WriteLine("conectado");
+            else
+                Console.WriteLine("Erro");
+
+
             Thread thread = new Thread(new ThreadStart(splashScreen));
             thread.Start();
             Thread.Sleep(5000);
@@ -25,7 +31,7 @@ namespace PROJETOTCC
 
         private void splashScreen()
         {
-            Application.Run(new SplashScreen());
+            
             
         }
 
